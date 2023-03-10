@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jahir´s Portfolio</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="nav-bar">
+        <div id="name">
+          <h1>JAHIR</h1>
+        </div>
+        <script src="JS/dropdown.js"></script>
+        <div class="dropdown">
+          <span class="icon" onclick="showDropdown()"
+            ><div class="container" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div></div
+          ></span>
+          <div class="dropdown-content" id="dropdown-content">
+            <a href="#project-title">Projects</a>
+            <a href="#aboutme-title">About me</a>
+            <a href="#contact-title">Contact</a>
+            <a href="">My Résumé</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="title-photo">
+        <div id="title">
+          <h1 class="text-left">Software Developer.</h1>
+          <p>
+            I like create software from scratches and make it look good with
+            Front-End development. I'm current student in the Universidad
+            Tecnológica de Chihuahua and here is some of my work
+          </p>
+          <div class="lil-text">
+            <p>
+              Highly skilled and eager to learn in work.
+            </p>
+            <p>Over 4 years learning different development languages</p>
+          </div>
+        </div>
+        <div id="photo">
+          <img src="images/me2.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <div id="project-title">
+        <h2>Projects</h2>
+      </div>
+      <div class="project-container">
+        <div class="card">
+          <a href="techshop.html">
+            <img src="images/techshop/TechShop.png" alt="TechShop" />
+            <div class="container">
+              <h4>TechShop</h4>
+              <p>
+                TechShop is a platform dedicated to selling technology-related
+                products such as computers, smartphones, tablets, cameras, and
+                other electronic devices, as well as related accessories and
+                software.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="smartbowl.html">
+            <img src="images/smartbowl/smartbowl.png" alt="SmartBowl" />
+            <div class="container">
+              <h4>SmartBowl</h4>
+              <p>
+                Smartbowl is an innovative and user-friendly mobile application
+                designed to help pet owners automate the process of feeding
+                their pets. With this app, pet owners can ensure that their
+                furry friends are fed on time, every time, without having to
+                manually dispense food.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="smartbowl.html">
+            <img src="images/soon.png" alt="Coming Soon..." />
+            <div class="container">
+              <h4>Coming Soon...</h4>
+              <p>
+                Exciting news! A brand new website is on its way and will be
+                launching soon. Stay tuned for updates on the launch date
+                and be among the first to see what we have to offer. 
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutme">
+      <div id="aboutme-title">
+        <h2>About Me</h2>
+      </div>
+      <div class="aboutme-container">
+        <div id="info">
+          <p>
+            My name is Jahir Noriega and I’ve been learning software development
+            since high school which I studied in CBTis 122, some of the
+            languages I’d learn in these years are:
+          </p>
+          <ul>
+            <li>Java</li>
+            <li>C#</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>NoSQL</li>
+            <li>Flutter</li>
+            <li>Android Studio</li>
+            <li>Firebase</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <p>
+            Currently, I am a student in the Universidad Tecnológica de
+            Chihuahua learning more programming languages I like find responses
+            to problematics in the daily life. If I don’t know the response I am
+            not afraid to learn new things to be better at my work.
+          </p>
+          <p>
+            Also, I like Front End and make websaites, apps, programs look good
+            and friendly with the users.
+          </p>
+        </div>
+        <div id="icon">
+          <img src="images/icon.png" alt="programmer" />
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div id="contact-title">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-container">
+        <form
+          target="_blank"
+          action="https://formsubmit.co/4a4a2ccecde817670e5687d0019d59a4"
+          method="POST"
+        >
+          <div class="form-group1">
+            <div class="form-row1">
+              <div class="col1">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+              <div class="col2">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="form-group2">
+            <div class="col3">
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <textarea
+              placeholder="Your Message"
+              class="form-control"
+              name="message"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="minimenu">
+        <p>M E N U</p>
+        <a href="#main">Home</a>
+        <a href="#project-title">Projects</a>
+        <a href="#aboutme-title">About me</a>
+        <a href="#contact-title">Contact</a>
+        <a href="">My Résumé</a>
+      </div>
+      <div class="footer-container">
+        <div id="copy">
+          <p>© Jahir Noriega 2023</p>
+        </div>
+        <div id="footer-icon">
+          <a
+            href="https://www.facebook.com/jahir.noriegavazquez.18"
+            target="_blank"
+            >FB</a
+          >
+          <a href="">TW</a>
+          <a href="https://www.instagram.com/jahir_noriega/" target="_blank"
+            >IG</a
+          >
+          <a
+            href="https://www.linkedin.com/in/jahir-noriega-63723218a/"
+            target="_blank"
+            >LI</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
