@@ -117,8 +117,8 @@
   }
   #title {
     height: 50%;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #11ffee00;
   }
   #title h1 {
@@ -466,13 +466,13 @@
 @media only screen and (max-device-width: 480px) {
   #contact-title {
     font-family: "Tilt Warp", cursive;
-    padding-left: 13%;
+    padding-left: 10%;
     padding-top: 10%;
     padding-bottom: 4%;
   }
   #contact-title h2 {
     color: #111f22;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .contact-container {
     
@@ -680,12 +680,25 @@
   background-color: #fffefc;
 }
 
+@media only screen and (max-device-width: 480px) {
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111f22;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    left: -130%;
+  }}
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #111f22;
   min-width: 10rem;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+  left: -130%;
 }
 .show {
   display: block;
