@@ -202,6 +202,8 @@
   background-color: #111f22;
   min-width: 10rem;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+  left: -130%;
 }
 .show {
   display: block;
