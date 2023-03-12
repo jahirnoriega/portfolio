@@ -10,6 +10,57 @@
   align-items: center;
   background-color: #11ffee00;
 }
+@media only screen and (max-device-width: 480px) {
+  .nav-bar {
+    padding-left: 1%;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-right: 1%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+    background-color: #11ffee00;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111f22;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    left: -130%;
+  }
+  .minimenu {
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-flow: column;
+    justify-content: left;
+    display: flex;
+  }
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fad7a0;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  #footer-icon a {
+    font-size: x-large;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+    color: #fad7a0;
+    text-decoration: none;
+    margin-bottom: 4.5rem;
+  }
+}
 #name {
   float: left;
   align-items: center;
