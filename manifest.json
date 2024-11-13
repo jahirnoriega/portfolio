@@ -2,11 +2,11 @@
   "name": "Portafolio",
   "short_name": "Jahir CV",
   "description": "Aplicación PWA CV personal Jahir",
-  "background _color": "#FFF",
+  "background_color": "#FFF",
   "theme_color": "#FFF",
   "orientation": "portrait",
   "display": "standalone",
-  "start_ur]": "./index.html?utm_source=web_app_manifest",
+  "start_url": "./index.html?utm_source=web_app_manifest",
   "scope": "./",
   "lang": "es-MX",
   "icons": [
